@@ -1,0 +1,15 @@
+{
+    "priority": 5,
+    "request": {
+        "method": "GET",
+        "urlPattern": "/study/wiremock/.*"
+    },
+    "response": {
+        "status": 200,
+        "body": "Generic Stub worked!",
+        "headers": {
+            "Content-Type": "text/plain"
+        }
+
+    }
+}

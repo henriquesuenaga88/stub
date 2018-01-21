@@ -1,0 +1,15 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "GET",
+        "url": "/study/wiremock"
+    },
+    "response": {
+        "status": 200,
+        "statusMessage": "Everything was just fine!",
+        "body": "Standalone stub worked!",
+        "headers": {
+            "Content-Type": "text/plain"
+        }
+    }
+}
